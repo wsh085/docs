@@ -1,0 +1,16 @@
+{
+  "name": "wsh0-doc",
+  "version": "1.0.0",
+  "description": "魏皇叔个人文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./__cli/docs.js",
+    "docs": "docsify serve docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docsify-cli": "^4.4.1"
+  }
+}

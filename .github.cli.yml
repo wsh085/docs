@@ -1,0 +1,15 @@
+image: ruby:alpine
+
+stages:
+- deploy
+
+pages:
+  stage: deploy
+  script:
+  - cp -r docs/. public
+  - echo "deploying to pages for frog smart platfrom"
+  artifacts:
+ &nbsp;  paths:
+ &nbsp;  - public
+  only:
+  - master

@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 * [指导](/index)
 * [工具](tools/index)
-  * [项目管控类](tools/index)
+  * [项目管控类111](tools/index)
   * [程序开发类](tools/index)
   * [界面样式类](tools/index)
 * [实践手册](coding/index)
